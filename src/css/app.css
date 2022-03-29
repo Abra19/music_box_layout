@@ -1,0 +1,54 @@
+@font-face {
+  font-weight: normal;
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf") format("opentype"), url("../fonts/Roboto-Regular.woff") format("woff"), url("../fonts/Roboto-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-weight: bold;
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.ttf") format("opentype"), url("../fonts/Roboto-Bold.woff") format("woff"), url("../fonts/Roboto-Bold.woff2") format("woff2");
+}
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  color: #cacaca;
+  background-color: #08020d;
+  max-width: 1440px;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 414px) {
+  body {
+    max-width: 414px;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */

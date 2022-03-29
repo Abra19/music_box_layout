@@ -1,0 +1,30 @@
+@font-face {
+  font-weight: normal;
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Regular.ttf") format("opentype"),
+    url("../fonts/Roboto-Regular.woff") format("woff"),
+    url("../fonts/Roboto-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: "Roboto";
+  src: url("../fonts/Roboto-Bold.ttf") format("opentype"),
+    url("../fonts/Roboto-Bold.woff") format("woff"),
+    url("../fonts/Roboto-Bold.woff2") format("woff2");
+}
+
+$main-colors: #08020d, #cacaca, #e0e0e0, #3c3b3d, #34c176, 
+  #f89202, #5328A1, #95390C;
+$desktop-title-sizes: 60px, 38px, 24px, 18px;
+$desktop-title-line-heights: 90px, 57px, 45px, 27px;
+$mobile-title-sizes: 30px, 18px, 16px, 18px;
+$mobile-title-line-heights: 45px, 27px, 24px, 24px;
+$text-sizes: 64px, 56px, 48px, 40px, 32px, 24px, 18px, 16px, 12.8px;
+$text-line-heights: 96px, 84px, 72px, 60px, 48px, 36px, 27px, 24px, 19.2px;
+$main-fonts: "Roboto", Arial, sans-serif;
+
+@mixin title-property {
+  font-weight: bold;
+  text-transform: capitalize;
+}
