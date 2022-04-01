@@ -1,40 +1,4 @@
-@import "colors_and_sizes";
-
-body {
-  font-family: nth($main-fonts, 1), nth($main-fonts, 3);
-  font-size: nth($text-sizes, 7);
-  line-height: nth($text-line-heights, 7);
-  color: nth($main-colors, 2);
-  background-color: nth($main-colors, 1);
-  max-width: 1440px;
-}
-
-h1 {
-  font-size: nth($desktop-title-sizes, 1);
-  line-height: nth($desktop-title-line-heights, 1);
-  @include title-property;
-}
-
-h2 {
-  font-size: nth($desktop-title-sizes, 2);
-  line-height: nth($desktop-title-line-heights, 2);
-  @include title-property;
-}
-
-@media screen and (max-width: 414px) {
-  body {
-    max-width: 414px;
-  }
-
-  h1 {
-    font-size: nth($mobile-title-sizes, 1);
-    line-height: nth($mobile-title-line-heights, 1);
-    @include title-property;
-  }
-  
-  h2 {
-    font-size: nth($mobile-title-sizes, 2);
-    line-height: nth($mobile-title-line-heights, 2);
-    @include title-property;
-  }
-}
+@import "variables";
+@import "mixins";
+@import "general";
+@import "header";
