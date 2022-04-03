@@ -501,5 +501,56 @@ h3 {
     margin-left: 0;
   }
 }
+.page-app {
+  margin-bottom: 100px;
+  padding-top: 100px;
+}
+.page-app .title-app {
+  text-align: center;
+}
+.page-app .app-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 15px;
+}
+.page-app .app-wrapper .app-text {
+  width: 600px;
+  color: #cacaca;
+  font-size: 16px;
+  line-height: 24px;
+}
+.page-app .app-wrapper .app-text .btn-app {
+  text-decoration: none;
+  display: inline-block;
+  padding: 16px 40px;
+  color: #fff;
+  font-size: 12.8px;
+  line-height: 19.2px;
+  border-radius: 32px;
+  background-color: #95390c;
+}
+.page-app .app-wrapper .img-app {
+  width: 600px;
+}
+
+@media screen and (max-width: 414px) {
+  .page-app .app-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 45px;
+  }
+  .page-app .app-wrapper .app-text {
+    order: 2;
+    width: 100%;
+    margin-top: -30px;
+  }
+  .page-app .app-wrapper .img-app {
+    order: 1;
+    width: 100%;
+  }
+}
 
 /*# sourceMappingURL=app.css.map */
