@@ -1,0 +1,80 @@
+.bg-header-artist {
+  color: nth($main-colors, 9);
+
+  background-image: url("../images/Morten\ Harket.png");
+
+  .page-description {
+    padding-bottom: 225px;
+
+    .artist-title {
+      margin-bottom: 0;
+
+      text-align: left;
+    }
+
+    .header-text {
+      font-weight: normal;
+      font-size: nth($text-sizes, 8);
+      line-height: nth($text-line-heights, 8);
+
+      text-align: left;
+    }
+
+    .line-btns {
+      margin-top: 47px;
+
+      text-align: left;
+
+      .btn-artist {
+        position: relative;
+
+        box-sizing: border-box;
+        width: 200px;
+        padding-left: 64px;
+
+        color: nth($main-colors, 9);
+        font-weight: normal;
+        font-size: nth($text-sizes, 10);
+        line-height: nth($text-line-heights, 9);
+
+        text-align: left;
+      }
+
+      .btn-violet {
+        margin-right: 21px;
+
+        background-color: nth($main-colors, 7);
+      }
+
+      .btn-orange {
+        background-color: nth($main-colors, 8);
+      }
+
+      .btn-violet::before {
+        @include btn-before-20-30;
+        background-image: url("../images/play-button.svg");
+      }
+
+      .btn-orange::before {
+        @include btn-before-20-30;
+        background-image: url("../images/heart.svg");
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .bg-header-artist {
+    .page-description {
+      .artist-title {
+        margin-top: -23px;
+      }
+
+      .line-btns {
+        .btn-violet {
+          margin-bottom: 22px;
+        }
+      }
+    }
+  }
+}

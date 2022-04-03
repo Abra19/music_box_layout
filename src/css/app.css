@@ -553,7 +553,7 @@ h3 {
   }
 }
 .page-footer {
-  background: linear-gradient(265.08deg, #95390c 14.9%, #5328a1 68.95%);
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 .page-footer .footer-lists {
   box-sizing: border-box;
@@ -670,6 +670,76 @@ h3 {
   }
   .page-footer .footer-main .footer-main-list .footer-main-item:first-of-type {
     margin-top: 0;
+  }
+}
+.bg-header-artist {
+  background-image: url("../images/Morten Harket.png");
+  color: #fff;
+}
+.bg-header-artist .page-description {
+  padding-bottom: 225px;
+}
+.bg-header-artist .page-description .artist-title {
+  margin-bottom: 0;
+  text-align: left;
+}
+.bg-header-artist .page-description .header-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+.bg-header-artist .page-description .line-btns {
+  margin-top: 47px;
+  text-align: left;
+}
+.bg-header-artist .page-description .line-btns .btn-artist {
+  position: relative;
+  width: 200px;
+  padding-left: 64px;
+  box-sizing: border-box;
+  color: #fff;
+  font-weight: normal;
+  font-size: 12.8px;
+  line-height: 19.2px;
+  text-align: left;
+}
+.bg-header-artist .page-description .line-btns .btn-violet {
+  margin-right: 21px;
+  background-color: #5328a1;
+}
+.bg-header-artist .page-description .line-btns .btn-orange {
+  background-color: #95390c;
+}
+.bg-header-artist .page-description .line-btns .btn-violet::before {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  width: 20px;
+  height: 20px;
+  filter: invert(1);
+  content: "";
+  background-repeat: no-repeat;
+  background-image: url("../images/play-button.svg");
+}
+.bg-header-artist .page-description .line-btns .btn-orange::before {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  width: 20px;
+  height: 20px;
+  filter: invert(1);
+  content: "";
+  background-repeat: no-repeat;
+  background-image: url("../images/heart.svg");
+}
+
+@media screen and (max-width: 414px) {
+  .bg-header-artist .page-description .artist-title {
+    margin-top: -23px;
+  }
+  .bg-header-artist .page-description .line-btns .btn-violet {
+    margin-bottom: 22px;
   }
 }
 
