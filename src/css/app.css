@@ -291,63 +291,63 @@ h3 {
   background-image: url("../images/subscribe_3.png");
 }
 .page-pricing .catalog-wrapper .pricing-item {
+  box-sizing: border-box;
   width: 368px;
   height: 615px;
   padding: 0 1.5rem;
-  box-sizing: border-box;
-  border-radius: 1rem;
   background-repeat: no-repeat;
-  background-size: cover;
   background-position: center;
+  background-size: cover;
+  border-radius: 1rem;
 }
 .page-pricing .catalog-wrapper .pricing-item .card-item {
   margin: 0;
   padding: 0;
+  margin-top: 25px;
   margin-bottom: 200px;
   text-align: center;
-  margin-top: 25px;
 }
 .page-pricing .catalog-wrapper .pricing-item .pricing-value {
+  margin-bottom: 40px;
   font-size: 32px;
   line-height: 48px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  margin-bottom: 40px;
 }
 .page-pricing .catalog-wrapper .pricing-item .pricing-value .price {
+  padding-right: 15px;
   font-size: 64px;
   line-height: 1em;
-  padding-right: 15px;
 }
 .page-pricing .catalog-wrapper .pricing-item .btn-trans {
   text-decoration: none;
   font-weight: normal;
   text-transform: uppercase;
+  display: block;
+  box-sizing: border-box;
+  width: 319px;
+  height: 66px;
+  margin: 0 auto;
   color: #fff;
   font-size: 16px;
   line-height: 24px;
-  border: 1px solid #fff;
-  width: 319px;
-  height: 66px;
-  box-sizing: border-box;
-  display: block;
-  margin: 0 auto;
   text-align: center;
+  border: 1px solid #fff;
 }
 .page-pricing .catalog-wrapper .pricing-item .pricing-footer {
+  margin-top: 63px;
+  color: #fff;
   font-size: 12.8px;
   line-height: 19.2px;
-  color: #fff;
   text-align: center;
-  margin-top: 63px;
 }
 .page-pricing .price-description {
+  margin-top: 38px;
+  color: #fff;
   font-size: 16px;
   line-height: 27px;
-  color: #fff;
   text-align: center;
-  margin-top: 38px;
 }
 
 @media screen and (max-width: 414px) {
@@ -358,14 +358,14 @@ h3 {
     justify-content: flex-start;
   }
   .page-pricing .catalog-wrapper .pricing-item {
-    margin-bottom: 25px;
     width: 374px;
     height: 621px;
+    margin-bottom: 25px;
   }
   .page-pricing .catalog-wrapper .pricing-item .card-item {
+    margin-top: 12px;
     font-size: 16px;
     line-height: 27px;
-    margin-top: 12px;
   }
   .page-pricing .catalog-wrapper .pricing-item .btn-trans {
     width: 326px;
@@ -378,6 +378,127 @@ h3 {
   }
   .page-pricing .price-description {
     margin-top: 8px;
+  }
+}
+.page-news {
+  padding-top: 100px;
+  text-align: center;
+}
+.page-news .title-2 {
+  margin-bottom: 50px;
+}
+.page-news .newses {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.page-news .newses .news-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.page-news .newses .news-item .news-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.page-news .newses .news-item .news-wrapper .news-body .news-title {
+  margin-top: 0;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: left;
+  text-transform: capitalize;
+}
+.page-news .newses .news-item .news-wrapper .news-body .news-text {
+  margin-bottom: 0;
+  color: #cacaca;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+.page-news .newses .news-item .news-wrapper .news-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.page-news .newses .news-item .news-wrapper .news-footer .news-author {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+.page-news .newses .news-item .news-wrapper .news-footer .news-author .avtor-company {
+  margin: 0;
+  margin-left: 19px;
+  color: #f89202;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 19.2px;
+  text-transform: uppercase;
+}
+.page-news .newses .news-item .news-wrapper .news-footer .news-author .news-data {
+  color: #cacaca;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 19.2px;
+  margin-left: 19px;
+}
+.page-news .newses .news-item .news-wrapper .news-footer .btn-news {
+  text-decoration: none;
+  color: #cacaca;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 19.2px;
+  box-sizing: border-box;
+  width: 135px;
+  height: 53px;
+  margin-top: 35px;
+  padding: 16px 30px;
+  text-transform: uppercase;
+  border: 1px solid #cacaca;
+}
+.page-news .newses .news-item .first-wrapper {
+  width: 575px;
+  margin-left: 0;
+}
+.page-news .newses .news-item .second-wrapper {
+  margin-left: 52px;
+}
+.page-news .newses .news-item:first-of-type {
+  margin-bottom: 63px;
+}
+
+@media screen and (max-width: 414px) {
+  .page-news .newses .news-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .page-news .newses .news-item .news-wrapper {
+    order: 2;
+  }
+  .page-news .newses .news-item .news-wrapper .news-body .news-title {
+    margin-top: 50px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .page-news .newses .news-item .img-news {
+    order: 1;
+    width: 100%;
+  }
+  .page-news .newses .news-item .first-wrapper {
+    width: 100%;
+    margin-left: 0;
+  }
+  .page-news .newses .news-item .second-wrapper {
+    margin-left: 0;
   }
 }
 

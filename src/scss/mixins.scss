@@ -45,3 +45,10 @@
 @mixin link {
   text-decoration: none;
 }
+
+@mixin text-12-cacaca {
+  color: nth($main-colors, 2);
+  font-weight: normal;
+  font-size: 12px;
+  line-height: nth($text-line-heights, 9);
+}
