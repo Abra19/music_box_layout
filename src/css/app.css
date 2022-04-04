@@ -684,6 +684,11 @@ h3 {
     margin-top: 0;
   }
 }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .bg-header-artist {
   color: #fff;
   background-image: url("../images/Morten Harket.png");
@@ -747,6 +752,11 @@ h3 {
 }
 
 @media screen and (max-width: 414px) {
+  .container {
+    width: 414px;
+    padding: 0 20px;
+  }
+
   .bg-header-artist .page-description .artist-title {
     margin-top: -23px;
   }
