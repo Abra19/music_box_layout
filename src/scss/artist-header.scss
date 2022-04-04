@@ -1,3 +1,8 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .bg-header-artist {
   color: nth($main-colors, 9);
 
@@ -64,6 +69,12 @@
 }
 
 @media screen and (max-width: 414px) {
+  .container {
+    box-sizing: border-box;
+    width: 414px;
+    padding: 0 20px;
+  }
+
   .bg-header-artist {
     .page-description {
       .artist-title {
