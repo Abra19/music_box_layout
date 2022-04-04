@@ -15,6 +15,7 @@
 
       .disco-name {
         margin-bottom: 0;
+
         color: nth($main-colors, 9);
 
         font-weight: bold;
@@ -42,7 +43,7 @@
       .discography-item {
         .disco-img {
           width: 137px;
-          height: auto;
+          height: 137px;
         }
 
         .disco-name {

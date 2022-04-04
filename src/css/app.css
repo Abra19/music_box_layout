@@ -867,12 +867,61 @@ h3 {
   }
   .page-discography .disco-wrapper .discography-item .disco-img {
     width: 137px;
-    height: auto;
+    height: 137px;
   }
   .page-discography .disco-wrapper .discography-item .disco-name {
     max-width: 138px;
   }
   .page-discography .disco-wrapper .discography-item:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+.page-similar {
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+.page-similar .similar-title {
+  margin-bottom: 50px;
+}
+.page-similar .similar-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.page-similar .similar-wrapper .similar-item {
+  margin-right: 50px;
+  margin-bottom: 25px;
+}
+.page-similar .similar-wrapper .similar-item .similar-info .similar-item-title {
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: capitalize;
+  text-align: center;
+}
+.page-similar .similar-wrapper .similar-item .similar-info .similar-text {
+  margin: 0;
+  padding: 0;
+  color: #e0e0e0;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+@media screen and (max-width: 414px) {
+  .page-similar .similar-wrapper .similar-item .similar-img {
+    width: 137px;
+    height: 137px;
+  }
+  .page-similar .similar-wrapper .similar-item .similar-info .similar-text {
+    max-width: 138px;
+  }
+  .page-similar .similar-wrapper .similar-item:nth-child(2n) {
     margin-right: 0;
   }
 }
