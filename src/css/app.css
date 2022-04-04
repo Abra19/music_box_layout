@@ -46,6 +46,7 @@ h3 {
 }
 
 .container {
+  position: relative;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -71,6 +72,7 @@ h3 {
   }
 
   .container {
+    position: relative;
     box-sizing: border-box;
     width: 414px;
     padding: 0 20px;
@@ -95,19 +97,21 @@ h3 {
   }
 }
 .bg-header {
-  position: relative;
   background-image: url("../images/banner.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .bg-header .nav-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1200px;
   padding-top: 25px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-start;
-  margin-bottom: -57px;
   text-transform: uppercase;
 }
 .bg-header .nav-wrapper .nav-element {
@@ -231,7 +235,8 @@ h3 {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    margin-bottom: -122px;
+    left: 20px;
+    width: 374px;
   }
   .bg-header .nav-wrapper .nav-element {
     margin-left: 0;
@@ -254,8 +259,7 @@ h3 {
   }
 
   .page-description {
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 250px;
   }
   .page-description .welcome-text {
     margin-top: 15px;
@@ -684,11 +688,6 @@ h3 {
     margin-top: 0;
   }
 }
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .bg-header-artist {
   color: #fff;
   background-image: url("../images/Morten Harket.png");
@@ -752,11 +751,6 @@ h3 {
 }
 
 @media screen and (max-width: 414px) {
-  .container {
-    width: 414px;
-    padding: 0 20px;
-  }
-
   .bg-header-artist .page-description .artist-title {
     margin-top: -23px;
   }
