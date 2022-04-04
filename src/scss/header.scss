@@ -104,6 +104,8 @@
 }
 
 .page-description {
+  max-width: 1200px;
+
   margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -198,6 +200,9 @@
   }
 
   .page-description {
+    box-sizing: border-box;
+    width: 414px;
+    padding: 0 20px;
     padding-top: 250px;
 
     .welcome-text {
