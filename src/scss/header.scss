@@ -112,16 +112,12 @@
 
   .title {
     margin: 0;
-    padding-right: 120px;
-    padding-left: 120px;
 
     color: nth($main-colors, 9);
   }
 
   .welcome-text {
     margin-top: 33px;
-    padding-right: 120px;
-    padding-left: 120px;
 
     color: nth($main-colors, 9);
     font-size: nth($text-sizes, 8);
@@ -171,14 +167,6 @@
 }
 
 @media screen and (max-width: 414px) {
-  .container-big {
-    position: relative;
-
-    width: 414px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-
   .bg-header {
     .nav-wrapper {
       @include flex-column-start;
@@ -211,13 +199,6 @@
 
   .page-description {
     padding-top: 250px;
-    padding-right: 20px;
-    padding-left: 20px;
-
-    .title {
-      padding-right: 20px;
-      padding-left: 20px;
-    }
 
     .welcome-text {
       margin-top: 15px;
