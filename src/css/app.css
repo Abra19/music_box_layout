@@ -189,10 +189,14 @@ h3 {
 }
 .page-description .title {
   margin: 0;
+  padding-right: 120px;
+  padding-left: 120px;
   color: #fff;
 }
 .page-description .welcome-text {
   margin-top: 33px;
+  padding-right: 120px;
+  padding-left: 120px;
   color: #fff;
   font-size: 16px;
   line-height: 24px;
@@ -268,9 +272,16 @@ h3 {
 
   .page-description {
     padding-top: 250px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .page-description .title {
+    padding-right: 20px;
+    padding-left: 20px;
   }
   .page-description .welcome-text {
     margin-top: 15px;
+    padding: 0;
   }
   .page-description .welcome-form .welcome-datas {
     flex-direction: column;
