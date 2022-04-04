@@ -1,6 +1,5 @@
 .bg-header {
-  width: 1440px;
-  margin: 0 auto;
+  position: relative;
 
   background-image: url("../images/banner.png");
   background-repeat: no-repeat;
@@ -10,7 +9,7 @@
   .nav-wrapper {
     position: absolute;
     top: 0;
-    left: 0;
+    left: 120px;
 
     width: 1200px;
 
@@ -168,6 +167,14 @@
 }
 
 @media screen and (max-width: 414px) {
+  .container-big {
+    position: relative;
+
+    width: 414px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
   .bg-header {
     .nav-wrapper {
       @include flex-column-start;
