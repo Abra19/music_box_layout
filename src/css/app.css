@@ -107,6 +107,7 @@ h3 {
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-start;
+  margin-bottom: -57px;
   text-transform: uppercase;
 }
 .bg-header .nav-wrapper .nav-element {
@@ -177,7 +178,7 @@ h3 {
 
 .page-description {
   margin: 0 auto;
-  padding-top: 143px;
+  padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
 }
@@ -230,6 +231,7 @@ h3 {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    margin-bottom: -122px;
   }
   .bg-header .nav-wrapper .nav-element {
     margin-left: 0;
@@ -252,7 +254,7 @@ h3 {
   }
 
   .page-description {
-    padding-top: 78px;
+    padding-top: 200px;
     padding-bottom: 200px;
   }
   .page-description .welcome-text {
@@ -877,8 +879,8 @@ h3 {
   }
 }
 .page-similar {
-  padding-top: 100px;
   margin-bottom: 100px;
+  padding-top: 100px;
 }
 .page-similar .similar-title {
   margin-bottom: 50px;
@@ -900,8 +902,8 @@ h3 {
   font-weight: bold;
   font-size: 18px;
   line-height: 27px;
-  text-transform: capitalize;
   text-align: center;
+  text-transform: capitalize;
 }
 .page-similar .similar-wrapper .similar-item .similar-info .similar-text {
   margin: 0;

@@ -9,6 +9,7 @@
   .nav-wrapper {
     @include p-top-25;
     @include flex-start-center;
+    margin-bottom: -57px;
 
     text-transform: uppercase;
 
@@ -99,7 +100,7 @@
 
 .page-description {
   margin: 0 auto;
-  padding-top: 143px;
+  padding-top: 200px;
   padding-bottom: 200px;
 
   text-align: center;
@@ -164,6 +165,7 @@
   .bg-header {
     .nav-wrapper {
       @include flex-column-start;
+      margin-bottom: -122px;
 
       .nav-element {
         margin-left: 0;
@@ -189,7 +191,7 @@
   }
 
   .page-description {
-    padding-top: 78px;
+    padding-top: 200px;
     padding-bottom: 200px;
 
     .welcome-text {
