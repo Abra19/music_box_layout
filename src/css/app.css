@@ -106,6 +106,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  flex-wrap: wrap;
   text-transform: uppercase;
 }
 .bg-header .nav-wrapper .nav-element {
@@ -119,6 +120,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  flex-wrap: wrap;
 }
 .bg-header .nav-wrapper .nav-element .nav-list .nav-item {
   margin-right: 25px;
@@ -280,6 +282,7 @@ h3 {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .page-pricing .catalog-wrapper .bg-free {
   background-image: url("../images/subscribe_1.png");
@@ -314,6 +317,7 @@ h3 {
   display: flex;
   align-items: flex-start;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .page-pricing .catalog-wrapper .pricing-item .pricing-value .price {
   padding-right: 15px;
@@ -397,6 +401,7 @@ h3 {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .page-news .newses .news-item .news-wrapper {
   display: flex;
@@ -430,6 +435,7 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  flex-wrap: wrap;
   margin-top: 10px;
 }
 .page-news .newses .news-item .news-wrapper .news-footer .news-author .avtor-company {
@@ -512,6 +518,7 @@ h3 {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
+  flex-wrap: wrap;
   padding-top: 15px;
 }
 .page-app .app-wrapper .app-text {
@@ -563,6 +570,7 @@ h3 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  flex-wrap: wrap;
   padding-top: 36px;
   padding-bottom: 75px;
 }
@@ -599,6 +607,7 @@ h3 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -621,6 +630,7 @@ h3 {
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -673,8 +683,8 @@ h3 {
   }
 }
 .bg-header-artist {
-  background-image: url("../images/Morten Harket.png");
   color: #fff;
+  background-image: url("../images/Morten Harket.png");
 }
 .bg-header-artist .page-description {
   padding-bottom: 225px;
@@ -695,9 +705,9 @@ h3 {
 }
 .bg-header-artist .page-description .line-btns .btn-artist {
   position: relative;
+  box-sizing: border-box;
   width: 200px;
   padding-left: 64px;
-  box-sizing: border-box;
   color: #fff;
   font-weight: normal;
   font-size: 12.8px;
@@ -717,9 +727,9 @@ h3 {
   left: 30px;
   width: 20px;
   height: 20px;
+  background-repeat: no-repeat;
   filter: invert(1);
   content: "";
-  background-repeat: no-repeat;
   background-image: url("../images/play-button.svg");
 }
 .bg-header-artist .page-description .line-btns .btn-orange::before {
@@ -728,9 +738,9 @@ h3 {
   left: 30px;
   width: 20px;
   height: 20px;
+  background-repeat: no-repeat;
   filter: invert(1);
   content: "";
-  background-repeat: no-repeat;
   background-image: url("../images/heart.svg");
 }
 
@@ -740,6 +750,78 @@ h3 {
   }
   .bg-header-artist .page-description .line-btns .btn-violet {
     margin-bottom: 22px;
+  }
+}
+.page-popular-track {
+  padding-top: 70px;
+}
+.page-popular-track .popular-title {
+  padding-bottom: 15px;
+}
+.page-popular-track .popular-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.page-popular-track .popular-wrapper .popular-track {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: calc(50% - 49px);
+  margin-bottom: 25px;
+}
+.page-popular-track .popular-wrapper .popular-track .track-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 15px;
+  width: calc(100% - 70px);
+  font-size: 12.8px;
+  line-height: 19.2px;
+}
+.page-popular-track .popular-wrapper .popular-track .track-info .track-name {
+  margin-top: 10px;
+}
+.page-popular-track .popular-wrapper .popular-track .track-info .track-name .album-name {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12.8px;
+  line-height: 19.2px;
+}
+.page-popular-track .popular-wrapper .popular-track .track-info .track-name .track-autor {
+  margin: 0;
+  padding: 0;
+}
+.page-popular-track .popular-wrapper .popular-track .track-info .track-time {
+  margin-top: 15px;
+}
+.page-popular-track .popular-wrapper .popular-track:nth-child(2n+1) {
+  margin-right: 49px;
+}
+
+@media screen and (max-width: 414px) {
+  .page-popular-track {
+    padding-top: 100px;
+  }
+  .page-popular-track .popular-title {
+    padding-bottom: 47px;
+  }
+  .page-popular-track .popular-wrapper .popular-track {
+    width: 100%;
+  }
+  .page-popular-track .popular-wrapper .popular-track .track-info {
+    width: calc(100% - 70px);
+  }
+  .page-popular-track .popular-wrapper .popular-track .track-info .track-time {
+    margin-top: 20px;
+  }
+  .page-popular-track .popular-wrapper .popular-track:nth-child(2n+1) {
+    margin-right: 0;
   }
 }
 

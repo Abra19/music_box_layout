@@ -14,24 +14,28 @@
 
 @mixin flex-start-center {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: flex-start;
 }
 
 @mixin flex-start-start {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   justify-content: flex-start;
 }
 
 @mixin flex-between-start {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   justify-content: space-between;
 }
 
 @mixin flex-center-start {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   justify-content: center;
 }
