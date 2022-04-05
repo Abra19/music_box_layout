@@ -1,23 +1,21 @@
 .bg-header-artist {
-  color: nth($main-colors, 9);
-
   background-image: url("../images/Morten\ Harket.png");
 
   .page-description {
-    padding-bottom: 225px;
+    color: nth($main-colors, 9);
+
+    text-align: left;
 
     .artist-title {
       margin-bottom: 0;
-
-      text-align: left;
     }
 
     .header-text {
+      margin-top: 33px;
+
       font-weight: normal;
       font-size: nth($text-sizes, 8);
       line-height: nth($text-line-heights, 8);
-
-      text-align: left;
     }
 
     .line-btns {
@@ -66,10 +64,6 @@
 @media screen and (max-width: 414px) {
   .bg-header-artist {
     .page-description {
-      .artist-title {
-        margin-top: -23px;
-      }
-
       .line-btns {
         .btn-violet {
           margin-bottom: 22px;

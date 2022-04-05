@@ -178,15 +178,15 @@ h3 {
 }
 
 .page-description {
+  color: #fff;
   text-align: center;
 }
 .page-description .title {
   margin: 0;
-  color: #fff;
 }
 .page-description .welcome-text {
   margin-top: 33px;
-  color: #fff;
+  font-weight: normal;
   font-size: 16px;
   line-height: 24px;
 }
@@ -681,21 +681,20 @@ h3 {
   }
 }
 .bg-header-artist {
-  color: #fff;
   background-image: url("../images/Morten Harket.png");
 }
 .bg-header-artist .page-description {
-  padding-bottom: 225px;
+  color: #fff;
+  text-align: left;
 }
 .bg-header-artist .page-description .artist-title {
   margin-bottom: 0;
-  text-align: left;
 }
 .bg-header-artist .page-description .header-text {
+  margin-top: 33px;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  text-align: left;
 }
 .bg-header-artist .page-description .line-btns {
   margin-top: 47px;
@@ -743,9 +742,6 @@ h3 {
 }
 
 @media screen and (max-width: 414px) {
-  .bg-header-artist .page-description .artist-title {
-    margin-top: -23px;
-  }
   .bg-header-artist .page-description .line-btns .btn-violet {
     margin-bottom: 22px;
   }
