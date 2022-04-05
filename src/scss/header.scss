@@ -9,7 +9,7 @@
 
   .nav-wrapper {
     position: absolute;
-    top: 0;
+    top: -200px;
     left: 20px;
 
     width: 1200px;
@@ -105,8 +105,6 @@
 }
 
 .page-description {
-  padding-top: 200px;
-
   text-align: center;
 
   .title {
@@ -197,8 +195,6 @@
   }
 
   .page-description {
-    padding-top: 250px;
-
     .welcome-text {
       margin-top: 15px;
       padding: 0;
