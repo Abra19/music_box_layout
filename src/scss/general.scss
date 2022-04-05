@@ -21,8 +21,6 @@ html {
 }
 
 body {
-  max-width: 1440px;
-
   color: nth($main-colors, 2);
   font-weight: normal;
   font-size: nth($text-sizes, 7);
@@ -84,15 +82,11 @@ h3 {
 }
 
 @media screen and (max-width: 414px) {
-  body {
-    width: 414px;
-  }
-
   .container {
     position: relative;
 
     box-sizing: border-box;
-    width: 414px;
+    width: 100%;
     padding: 0 20px;
   }
 
