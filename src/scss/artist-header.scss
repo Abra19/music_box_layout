@@ -7,7 +7,7 @@
     text-align: left;
 
     .artist-title {
-      margin-top: 55px;
+      margin-top: 15px;
       margin-bottom: 0;
     }
 
@@ -66,6 +66,8 @@
 @media screen and (max-width: 414px) {
   .bg-header-artist {
     .page-description {
+      margin-top: 25px;
+
       .artist-title {
         @include mp-0;
       }
