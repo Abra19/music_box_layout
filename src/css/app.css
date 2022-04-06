@@ -46,8 +46,8 @@ h3 {
 
 .container {
   position: relative;
-  width: 1200px;
-  margin: 0 120px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .btn {
@@ -70,7 +70,6 @@ h3 {
     position: relative;
     box-sizing: border-box;
     width: 414px;
-    margin: 0 auto;
     padding: 0 20px;
   }
 
