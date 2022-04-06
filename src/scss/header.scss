@@ -8,14 +8,14 @@
   background-size: cover;
 
   .nav-wrapper {
+    @include mp-0;
+    @include p-top-25;
+    @include flex-start-center;
     position: absolute;
     top: -200px;
     left: 0;
 
     width: 1200px;
-
-    @include p-top-25;
-    @include flex-start-center;
 
     text-transform: uppercase;
 
@@ -105,15 +105,12 @@
 }
 
 .page-description {
-  padding-left: 10px;
-
   color: nth($main-colors, 9);
 
   text-align: center;
 
   .title {
-    margin-top: 8px;
-    margin-bottom: 0;
+    @include mp-0;
   }
 
   .title-2 {

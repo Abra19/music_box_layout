@@ -21,6 +21,7 @@ html {
 }
 
 body {
+  @include mp-0;
   color: nth($main-colors, 2);
   font-weight: normal;
   font-size: nth($text-sizes, 7);
@@ -28,37 +29,32 @@ body {
   line-height: nth($text-line-heights, 7);
 
   background-color: nth($main-colors, 1);
-
-  @include mp-0;
 }
 
 h1 {
+  @include title-property;
   font-size: nth($desktop-title-sizes, 1);
   line-height: nth($desktop-title-line-heights, 1);
-
-  @include title-property;
 }
 
 h2 {
+  @include title-property;
   font-size: nth($desktop-title-sizes, 2);
   line-height: nth($desktop-title-line-heights, 2);
-
-  @include title-property;
 }
 
 h3 {
+  @include title-regular;
   font-size: nth($desktop-title-sizes, 3);
   line-height: nth($desktop-title-line-heights, 4);
-
-  @include title-regular;
 }
 
 .container {
   position: relative;
 
-  max-width: 1200px;
+  width: 1200px;
 
-  margin: 0 auto;
+  margin: 0 120px;
 }
 
 .btn {

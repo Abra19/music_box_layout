@@ -21,6 +21,7 @@
 
     .line-btns {
       margin-top: 47px;
+      margin-bottom: 25px;
 
       text-align: left;
 
@@ -65,9 +66,6 @@
 @media screen and (max-width: 414px) {
   .bg-header-artist {
     .page-description {
-      margin-top: -25px;
-      margin-left: 10px;
-
       .artist-title {
         @include mp-0;
       }
@@ -77,8 +75,6 @@
       }
 
       .line-btns {
-        padding-bottom: 25px;
-
         .btn-violet {
           margin-bottom: 22px;
         }
