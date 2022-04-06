@@ -69,7 +69,8 @@ h3 {
   .container {
     position: relative;
     box-sizing: border-box;
-    width: 100%;
+    width: 414px;
+    margin: 0 auto;
     padding: 0 20px;
   }
 
@@ -263,9 +264,6 @@ h3 {
     margin-top: 5px;
   }
 
-  .page-description {
-    margin-left: 15px;
-  }
   .page-description .title {
     margin: 0;
     padding: 0;
