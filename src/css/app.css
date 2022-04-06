@@ -15,6 +15,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  width: 100%;
   color: #cacaca;
   font-weight: normal;
   font-size: 18px;
@@ -44,16 +45,11 @@ h3 {
   line-height: 36px;
 }
 
-section {
+.container {
+  position: relative;
   max-width: 1240px;
   margin: 0 auto;
   padding: 0 20px;
-}
-
-.container {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
 .btn {
@@ -73,10 +69,7 @@ section {
 
 @media screen and (max-width: 414px) {
   .container {
-    position: relative;
-    box-sizing: border-box;
-    width: 414px;
-    padding: 0 20px;
+    max-width: 414px;
   }
 
   h1 {
@@ -289,7 +282,6 @@ section {
   }
 }
 .page-pricing {
-  margin: 0 auto;
   padding-top: 100px;
 }
 .page-pricing .title-pricing {
