@@ -7,11 +7,12 @@
     text-align: left;
 
     .artist-title {
+      margin-top: 55px;
       margin-bottom: 0;
     }
 
     .header-text {
-      margin-top: 33px;
+      margin-top: 20px;
 
       font-weight: normal;
       font-size: nth($text-sizes, 8);
@@ -64,7 +65,20 @@
 @media screen and (max-width: 414px) {
   .bg-header-artist {
     .page-description {
+      margin-top: -25px;
+      margin-left: 10px;
+
+      .artist-title {
+        @include mp-0;
+      }
+
+      .header-text {
+        margin-top: 15px;
+      }
+
       .line-btns {
+        padding-bottom: 25px;
+
         .btn-violet {
           margin-bottom: 22px;
         }

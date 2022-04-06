@@ -105,12 +105,19 @@
 }
 
 .page-description {
+  padding-left: 10px;
+
   color: nth($main-colors, 9);
 
   text-align: center;
 
   .title {
-    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 0;
+  }
+
+  .title-2 {
+    margin-top: 0;
   }
 
   .welcome-text {
@@ -151,6 +158,7 @@
 
     .btn-green {
       width: 100%;
+      margin-top: -5px;
 
       color: nth($main-colors, 9);
       font-size: 13.3px;
@@ -165,8 +173,11 @@
 
 @media screen and (max-width: 414px) {
   .bg-header {
+    padding-top: 250px;
+
     .nav-wrapper {
       @include flex-column-start;
+      top: -250px;
       left: 20px;
 
       width: 374px;
@@ -195,12 +206,20 @@
   }
 
   .page-description {
+    margin-left: 15px;
+
+    .title {
+      @include mp-0;
+    }
+
     .welcome-text {
       margin-top: 15px;
       padding: 0;
     }
 
     .welcome-form {
+      margin-left: -5px;
+
       .welcome-datas {
         flex-direction: column;
         margin-bottom: 25px;

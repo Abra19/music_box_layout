@@ -178,11 +178,16 @@ h3 {
 }
 
 .page-description {
+  padding-left: 10px;
   color: #fff;
   text-align: center;
 }
 .page-description .title {
-  margin: 0;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+.page-description .title-2 {
+  margin-top: 0;
 }
 .page-description .welcome-text {
   margin-top: 33px;
@@ -215,6 +220,7 @@ h3 {
 }
 .page-description .welcome-form .btn-green {
   width: 100%;
+  margin-top: -5px;
   color: #fff;
   font-size: 13.3px;
   font-family: arial, sans-serif;
@@ -224,12 +230,16 @@ h3 {
 }
 
 @media screen and (max-width: 414px) {
+  .bg-header {
+    padding-top: 250px;
+  }
   .bg-header .nav-wrapper {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
     left: 20px;
+    top: -250px;
     width: 374px;
   }
   .bg-header .nav-wrapper .nav-element {
@@ -252,9 +262,19 @@ h3 {
     margin-top: 5px;
   }
 
+  .page-description {
+    margin-left: 15px;
+  }
+  .page-description .title {
+    margin: 0;
+    padding: 0;
+  }
   .page-description .welcome-text {
     margin-top: 15px;
     padding: 0;
+  }
+  .page-description .welcome-form {
+    margin-left: -5px;
   }
   .page-description .welcome-form .welcome-datas {
     flex-direction: column;
@@ -688,10 +708,11 @@ h3 {
   text-align: left;
 }
 .bg-header-artist .page-description .artist-title {
+  margin-top: 55px;
   margin-bottom: 0;
 }
 .bg-header-artist .page-description .header-text {
-  margin-top: 33px;
+  margin-top: 20px;
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
@@ -742,6 +763,20 @@ h3 {
 }
 
 @media screen and (max-width: 414px) {
+  .bg-header-artist .page-description {
+    margin-top: -25px;
+    margin-left: 10px;
+  }
+  .bg-header-artist .page-description .artist-title {
+    margin: 0;
+    padding: 0;
+  }
+  .bg-header-artist .page-description .header-text {
+    margin-top: 15px;
+  }
+  .bg-header-artist .page-description .line-btns {
+    padding-bottom: 25px;
+  }
   .bg-header-artist .page-description .line-btns .btn-violet {
     margin-bottom: 22px;
   }
