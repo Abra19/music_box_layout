@@ -2,6 +2,7 @@
   padding-top: 70px;
 
   .popular-title {
+    @include mp-0;
     padding-bottom: 15px;
   }
 
@@ -54,7 +55,6 @@
     padding-top: 100px;
 
     .popular-title {
-      @include mp-0;
       margin-bottom: 47px;
     }
 
