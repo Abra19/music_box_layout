@@ -14,6 +14,8 @@
 
       .footer-items {
         .item-title {
+          @include mp-0;
+          width: 270px;
           margin-bottom: 14px;
 
           color: nth($main-colors, 9);
