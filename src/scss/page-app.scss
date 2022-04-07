@@ -43,17 +43,21 @@
   .page-app {
     .app-wrapper {
       @include flex-column-start;
-      padding-top: 45px;
+      @include mp-0;
+      width: 374px;
+      margin-top: 50px;
 
       .app-text {
+        @include mp-0;
         order: 2;
-        width: 100%;
-        margin-top: -30px;
+        width: 374px;
+        margin-top: -35px;
       }
 
       .img-app {
+        @include mp-0;
         order: 1;
-        margin: 0 auto;
+        width: 100%;
       }
     }
   }
