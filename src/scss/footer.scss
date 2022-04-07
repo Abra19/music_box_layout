@@ -128,7 +128,7 @@
             margin-bottom: 16px;
           }
 
-          .footer-list-full {
+          .footer-list {
             .footer-item {
               @include mp-0;
               width: 374px;
@@ -137,15 +137,11 @@
                 width: 374px;
               }
             }
-          }
-
-          .footer-list {
-            .footer-adress {
-              width: 374px;
-            }
-
             .footer-auto {
               width: auto;
+              .footer-link {
+                width: auto;
+              }
             }
           }
         }

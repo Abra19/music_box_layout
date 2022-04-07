@@ -706,18 +706,18 @@ h3 {
     width: 374px;
     margin-bottom: 16px;
   }
-  .page-footer .footer-lists .footer-wrapper .footer-items .footer-list-full .footer-item {
+  .page-footer .footer-lists .footer-wrapper .footer-items .footer-list .footer-item {
     margin: 0;
     padding: 0;
     width: 374px;
   }
-  .page-footer .footer-lists .footer-wrapper .footer-items .footer-list-full .footer-item .footer-link {
-    width: 374px;
-  }
-  .page-footer .footer-lists .footer-wrapper .footer-items .footer-list .footer-adress {
+  .page-footer .footer-lists .footer-wrapper .footer-items .footer-list .footer-item .footer-link {
     width: 374px;
   }
   .page-footer .footer-lists .footer-wrapper .footer-items .footer-list .footer-auto {
+    width: auto;
+  }
+  .page-footer .footer-lists .footer-wrapper .footer-items .footer-list .footer-auto .footer-link {
     width: auto;
   }
   .page-footer .footer-lists .footer-wrapper .footer-items:first-of-type {
