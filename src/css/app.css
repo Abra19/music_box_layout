@@ -694,6 +694,7 @@ h3 {
     margin-bottom: 12px;
   }
   .page-footer .footer-lists .footer-wrapper .footer-items {
+    width: 373px;
     margin-top: 10px;
   }
   .page-footer .footer-lists .footer-wrapper .footer-items .item-title {
@@ -714,6 +715,7 @@ h3 {
     justify-content: flex-start;
   }
   .page-footer .footer-main .footer-main-list .footer-main-item {
+    width: 373px;
     margin-top: 16px;
   }
   .page-footer .footer-main .footer-main-list .footer-main-item:first-of-type {

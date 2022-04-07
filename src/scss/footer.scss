@@ -116,6 +116,7 @@
         margin-bottom: 12px;
 
         .footer-items {
+          width: 373px;
           margin-top: 10px;
 
           .item-title {
@@ -136,6 +137,7 @@
         @include flex-column-start;
 
         .footer-main-item {
+          width: 373px;
           margin-top: 16px;
         }
 
