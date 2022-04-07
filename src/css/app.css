@@ -710,6 +710,7 @@ h3 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
+    margin-top: 15px;
   }
   .page-footer .footer-lists .footer-wrapper .footer-items .footer-list .footer-item {
     margin: 0;
