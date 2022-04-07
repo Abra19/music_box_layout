@@ -705,13 +705,6 @@ h3 {
     width: 374px;
     margin-bottom: 16px;
   }
-  .page-footer .footer-lists .footer-wrapper .footer-items .footer-social {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: flex-start;
-    margin-top: 15px;
-  }
   .page-footer .footer-lists .footer-wrapper .footer-items .footer-list .footer-item {
     margin: 0;
     padding: 0;
@@ -719,6 +712,15 @@ h3 {
   }
   .page-footer .footer-lists .footer-wrapper .footer-items .footer-list .footer-item .footer-link {
     width: 374px;
+  }
+  .page-footer .footer-lists .footer-wrapper .footer-items .social-title {
+    margin-top: 10px;
+  }
+  .page-footer .footer-lists .footer-wrapper .footer-items .footer-social {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
   }
   .page-footer .footer-lists .footer-wrapper .footer-items:first-of-type {
     margin-top: 9px;

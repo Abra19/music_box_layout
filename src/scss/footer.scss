@@ -127,11 +127,6 @@
             margin-bottom: 16px;
           }
 
-          .footer-social {
-            @include flex-start-center;
-            margin-top: 15px;
-          }
-
           .footer-list {
             .footer-item {
               @include mp-0;
@@ -141,6 +136,16 @@
                 width: 374px;
               }
             }
+          }
+
+
+          .social-title {
+            margin-top: 10px;
+          }
+
+          .footer-social {
+            @include flex-start-center;
+            
           }
         }
 
