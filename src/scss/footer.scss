@@ -147,11 +147,11 @@
         .footer-items:nth-child(3) {
           .footer-list {
             .footer-mail {
-              width: 187px;
+              width: 150px;
             }
 
             .footer-phone {
-              width: 195px;
+              width: 160px;
             }
           }
         }
@@ -166,7 +166,7 @@
         @include flex-column-start;
 
         .footer-main-item {
-          width: 374px;
+          width: 354px;
           margin-top: 16px;
         }
 
