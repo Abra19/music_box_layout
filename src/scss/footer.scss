@@ -85,6 +85,7 @@
 
       margin-top: 4px;
       margin-bottom: 10px;
+
       list-style: none;
 
       .footer-main-item {
@@ -118,15 +119,24 @@
         margin-bottom: 12px;
 
         .footer-items {
+          width: 374px;
           margin-top: 10px;
 
           .item-title {
             @include mp-0;
+            width: 374px;
             margin-bottom: 16px;
           }
 
           .footer-list-full {
-            width: 374px;
+            .footer-item {
+              @include mp-0;
+              width: 374px;
+
+              .footer-link {
+                width: 374px;
+              }
+            }
           }
 
           .footer-list {
@@ -147,8 +157,8 @@
     }
 
     .footer-main {
-      padding-left: 20px;
       padding-right: 20px;
+      padding-left: 20px;
 
       .footer-main-list {
         @include flex-column-start;
