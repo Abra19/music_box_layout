@@ -756,7 +756,7 @@ h3 {
   text-align: left;
 }
 .bg-header-artist .page-description .artist-title {
-  margin-top: 15px;
+  margin-top: 50px;
   margin-bottom: 0;
 }
 .bg-header-artist .page-description .header-text {
@@ -775,6 +775,11 @@ h3 {
   box-sizing: border-box;
   width: 200px;
   padding-left: 30px;
+}
+.bg-header-artist .page-description .line-btns .btn-artist .btn-text {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
   color: #fff;
   font-weight: normal;
   font-size: 12.8px;
@@ -783,32 +788,40 @@ h3 {
   text-transform: uppercase;
 }
 .bg-header-artist .page-description .line-btns .btn-violet {
-  margin-right: 21px;
+  margin-right: 27px;
   background-color: #5328a1;
+}
+.bg-header-artist .page-description .line-btns .btn-violet .btn-text {
+  margin-top: -2px;
+  margin-left: -12px;
 }
 .bg-header-artist .page-description .line-btns .btn-orange {
   background-color: #95390c;
 }
+.bg-header-artist .page-description .line-btns .btn-orange .btn-text {
+  margin-top: -6px;
+  margin-left: 22px;
+}
 .bg-header-artist .page-description .line-btns .btn-violet::before {
   position: absolute;
-  top: 20px;
-  left: 30px;
   width: 20px;
   height: 20px;
   background-repeat: no-repeat;
   filter: invert(1);
   content: "";
+  top: 15px;
+  left: 35px;
   background-image: url("../images/play-button.svg");
 }
 .bg-header-artist .page-description .line-btns .btn-orange::before {
   position: absolute;
-  top: 20px;
-  left: 30px;
   width: 20px;
   height: 20px;
   background-repeat: no-repeat;
   filter: invert(1);
   content: "";
+  top: 15px;
+  left: 30px;
   background-image: url("../images/heart.svg");
 }
 

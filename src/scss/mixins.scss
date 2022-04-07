@@ -63,10 +63,8 @@
   line-height: nth($text-line-heights, 9);
 }
 
-@mixin btn-before-20-30 {
+@mixin btn-before {
   position: absolute;
-  top: 20px;
-  left: 30px;
 
   width: 20px;
   height: 20px;

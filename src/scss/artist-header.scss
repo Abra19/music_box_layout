@@ -7,7 +7,7 @@
     text-align: left;
 
     .artist-title {
-      margin-top: 15px;
+      margin-top: 50px;
       margin-bottom: 0;
     }
 
@@ -32,32 +32,53 @@
         width: 200px;
         padding-left: 30px;
 
-        color: nth($main-colors, 9);
-        font-weight: normal;
-        font-size: nth($text-sizes, 10);
-        line-height: nth($text-line-heights, 9);
+        .btn-text {
+          @include mp-0;
+          display: inline-block;
 
-        text-align: left;
-        text-transform: uppercase;
+          color: nth($main-colors, 9);
+          font-weight: normal;
+          font-size: nth($text-sizes, 10);
+          line-height: nth($text-line-heights, 9);
+
+          text-align: left;
+          text-transform: uppercase;
+        }
       }
 
       .btn-violet {
-        margin-right: 21px;
+        margin-right: 27px;
 
         background-color: nth($main-colors, 7);
+
+        .btn-text {
+          margin-top: -2px;
+          margin-left: -12px;
+        }
       }
 
       .btn-orange {
         background-color: nth($main-colors, 8);
+
+        .btn-text {
+          margin-top: -6px;
+          margin-left: 22px;
+        }
       }
 
       .btn-violet::before {
-        @include btn-before-20-30;
+        @include btn-before;
+        top: 15px;
+        left: 35px;
+
         background-image: url("../images/play-button.svg");
       }
 
       .btn-orange::before {
-        @include btn-before-20-30;
+        @include btn-before;
+        top: 15px;
+        left: 30px;
+
         background-image: url("../images/heart.svg");
       }
     }
