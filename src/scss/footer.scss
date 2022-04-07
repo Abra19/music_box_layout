@@ -112,11 +112,11 @@
     .footer-lists {
       .footer-wrapper {
         @include flex-column-start;
-        padding-top: 60px;
-        padding-bottom: 67px;
+        margin-top: 10px;
+        margin-bottom: 12px;
 
         .footer-items {
-          margin-top: 30px;
+          margin-top: 10px;
 
           .item-title {
             @include mp-0;
@@ -131,6 +131,7 @@
     }
 
     .footer-main {
+      padding-left: 20px;
       .footer-main-list {
         @include flex-column-start;
 
