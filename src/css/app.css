@@ -282,6 +282,7 @@ h3 {
   }
 }
 .page-pricing {
+  max-width: 1200px;
   padding-top: 100px;
 }
 .page-pricing .title-pricing {
