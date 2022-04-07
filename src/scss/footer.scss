@@ -115,7 +115,7 @@
     .footer-lists {
       .footer-wrapper {
         @include flex-column-start;
-        margin-bottom: 17px;
+        margin-bottom: 20px;
 
         .footer-items {
           width: 374px;
@@ -131,16 +131,10 @@
             .footer-item {
               @include mp-0;
               width: 374px;
-
               .footer-link {
                 width: 374px;
               }
             }
-          }
-
-
-          .social-title {
-            margin-top: 10px;
           }
 
           .footer-social {
