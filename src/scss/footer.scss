@@ -118,10 +118,12 @@
         margin-bottom: 12px;
 
         .footer-items {
+          width: 374px;
           margin-top: 10px;
 
           .item-title {
             @include mp-0;
+            width: 374px;
             margin-bottom: 16px;
           }
         }
@@ -140,6 +142,7 @@
         @include flex-column-start;
 
         .footer-main-item {
+          width: 374px;
           margin-top: 16px;
         }
 

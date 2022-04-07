@@ -697,11 +697,13 @@ h3 {
     margin-bottom: 12px;
   }
   .page-footer .footer-lists .footer-wrapper .footer-items {
+    width: 374px;
     margin-top: 10px;
   }
   .page-footer .footer-lists .footer-wrapper .footer-items .item-title {
     margin: 0;
     padding: 0;
+    width: 374px;
     margin-bottom: 16px;
   }
   .page-footer .footer-lists .footer-wrapper .footer-items:first-of-type {
@@ -718,6 +720,7 @@ h3 {
     justify-content: flex-start;
   }
   .page-footer .footer-main .footer-main-list .footer-main-item {
+    width: 374px;
     margin-top: 16px;
   }
   .page-footer .footer-main .footer-main-list .footer-main-item:first-of-type {
