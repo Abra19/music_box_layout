@@ -780,6 +780,7 @@ h3 {
   font-size: 12.8px;
   line-height: 19.2px;
   text-align: left;
+  text-transform: uppercase;
 }
 .bg-header-artist .page-description .line-btns .btn-violet {
   margin-right: 21px;
