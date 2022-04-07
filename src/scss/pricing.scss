@@ -3,8 +3,8 @@
 
   .title-pricing {
     @include mp-0;
-
-    margin-bottom: 50px;
+    margin-top: 8px;
+    margin-bottom: 48px;
 
     text-align: center;
   }
@@ -47,7 +47,7 @@
       }
 
       .pricing-value {
-        margin-bottom: 40px;
+        margin-bottom: 38px;
 
         font-size: nth($text-sizes, 5);
         line-height: nth($text-line-heights, 5);
