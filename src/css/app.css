@@ -718,10 +718,10 @@ h3 {
     margin-top: 0;
   }
   .page-footer .footer-lists .footer-wrapper .footer-items:nth-child(3) .footer-list .footer-mail {
-    width: 150px;
+    width: 122px;
   }
   .page-footer .footer-lists .footer-wrapper .footer-items:nth-child(3) .footer-list .footer-phone {
-    width: 160px;
+    width: 130px;
   }
   .page-footer .footer-main {
     padding-right: 20px;
@@ -734,7 +734,7 @@ h3 {
     justify-content: flex-start;
   }
   .page-footer .footer-main .footer-main-list .footer-main-item {
-    width: 354px;
+    width: 330px;
     margin-top: 16px;
   }
   .page-footer .footer-main .footer-main-list .footer-main-item:first-of-type {
