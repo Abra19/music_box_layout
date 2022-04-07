@@ -908,7 +908,9 @@ h3 {
     padding-top: 100px;
   }
   .page-popular-track .popular-title {
-    padding-bottom: 47px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 57px;
   }
   .page-popular-track .popular-wrapper .popular-track {
     width: 100%;

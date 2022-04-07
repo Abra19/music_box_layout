@@ -54,7 +54,8 @@
     padding-top: 100px;
 
     .popular-title {
-      padding-bottom: 47px;
+      @include mp-0;
+      margin-bottom: 57px;
     }
 
     .popular-wrapper {
