@@ -97,6 +97,10 @@
 
 @media screen and (max-width: 414px) {
   .page-news {
+    .title-2 {
+      margin-bottom: 55px;
+    }
+
     .newses {
       .news-item {
         @include flex-column-start;
@@ -119,15 +123,16 @@
           order: 1;
         }
 
-        .first-wrapper {
-          width: 100%;
-          margin-left: 0;
-        }
-
+        .first-wrapper,
         .second-wrapper {
           width: 100%;
+          margin-right: 0;
           margin-left: 0;
         }
+      }
+
+      .news-item:first-of-type {
+        margin-bottom: 73px;
       }
     }
   }

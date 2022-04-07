@@ -495,6 +495,9 @@ h3 {
 }
 
 @media screen and (max-width: 414px) {
+  .page-news .title-2 {
+    margin-bottom: 55px;
+  }
   .page-news .newses .news-item {
     display: flex;
     flex-direction: column;
@@ -513,13 +516,14 @@ h3 {
   .page-news .newses .news-item .img-news {
     order: 1;
   }
-  .page-news .newses .news-item .first-wrapper {
+  .page-news .newses .news-item .first-wrapper,
+.page-news .newses .news-item .second-wrapper {
     width: 100%;
+    margin-right: 0;
     margin-left: 0;
   }
-  .page-news .newses .news-item .second-wrapper {
-    width: 100%;
-    margin-left: 0;
+  .page-news .newses .news-item:first-of-type {
+    margin-bottom: 73px;
   }
 }
 .page-app {
