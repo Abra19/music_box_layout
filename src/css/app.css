@@ -766,7 +766,7 @@ h3 {
   line-height: 24px;
 }
 .bg-header-artist .page-description .line-btns {
-  margin-top: 55px;
+  margin-top: 50px;
   margin-bottom: 25px;
   text-align: left;
 }
@@ -837,7 +837,7 @@ h3 {
     margin-top: 16px;
   }
   .bg-header-artist .page-description .line-btns .btn-violet {
-    margin-bottom: 23px;
+    margin-bottom: 25px;
   }
   .bg-header-artist .page-description .line-btns .btn-violet .btn-text {
     margin-left: 35px;
