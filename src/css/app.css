@@ -531,14 +531,16 @@ h3 {
   padding-top: 100px;
 }
 .page-app .title-app {
+  margin: 0;
+  padding: 0;
   text-align: center;
 }
 .page-app .app-wrapper {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  justify-content: space-between;
-  padding-top: 15px;
+  justify-content: flex-start;
+  padding-top: 50px;
 }
 .page-app .app-wrapper .app-text {
   width: 600px;
@@ -558,6 +560,7 @@ h3 {
 }
 .page-app .app-wrapper .img-app {
   width: 333px;
+  margin-left: 144px;
 }
 
 @media screen and (max-width: 414px) {

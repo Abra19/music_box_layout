@@ -3,12 +3,13 @@
   padding-top: 100px;
 
   .title-app {
+    @include mp-0;
     text-align: center;
   }
 
   .app-wrapper {
-    @include flex-between-start;
-    padding-top: 15px;
+    @include flex-start-start;
+    padding-top: 50px;
 
     .app-text {
       width: 600px;
@@ -33,6 +34,7 @@
 
     .img-app {
       width: 333px;
+      margin-left: 144px;
     }
   }
 }
