@@ -11,7 +11,7 @@
     @include flex-column-start;
 
     .news-item {
-      @include flex-between-start;
+      @include flex-start-start;
 
       .news-wrapper {
         @include flex-column-start;
@@ -80,11 +80,12 @@
 
       .first-wrapper {
         width: 575px;
-        margin-left: 0;
+        margin-right: 50px;
       }
 
       .second-wrapper {
-        margin-left: 52px;
+        width: 575px;
+        
       }
     }
 

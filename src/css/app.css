@@ -414,7 +414,7 @@ h3 {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 .page-news .newses .news-item .news-wrapper {
   display: flex;
@@ -483,10 +483,10 @@ h3 {
 }
 .page-news .newses .news-item .first-wrapper {
   width: 575px;
-  margin-left: 0;
+  margin-right: 50px;
 }
 .page-news .newses .news-item .second-wrapper {
-  margin-left: 52px;
+  width: 575px;
 }
 .page-news .newses .news-item:first-of-type {
   margin-bottom: 63px;
