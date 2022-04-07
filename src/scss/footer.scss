@@ -109,6 +109,8 @@
 
 @media screen and (max-width: 414px) {
   .page-footer {
+    width: 414px;
+
     .footer-lists {
       .footer-wrapper {
         @include flex-column-start;
@@ -116,7 +118,6 @@
         margin-bottom: 12px;
 
         .footer-items {
-          width: 373px;
           margin-top: 10px;
 
           .item-title {
@@ -133,11 +134,12 @@
 
     .footer-main {
       padding-left: 20px;
+      padding-right: 20px;
+
       .footer-main-list {
         @include flex-column-start;
 
         .footer-main-item {
-          width: 373px;
           margin-top: 16px;
         }
 
