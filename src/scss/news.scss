@@ -97,6 +97,10 @@
 
 @media screen and (max-width: 414px) {
   .page-news {
+    .title-2 {
+      margin-bottom: 48px;
+    }
+
     .newses {
       .news-item {
         @include flex-column-start;
