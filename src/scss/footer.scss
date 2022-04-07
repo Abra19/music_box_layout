@@ -115,17 +115,21 @@
     .footer-lists {
       .footer-wrapper {
         @include flex-column-start;
-        margin-top: 10px;
-        margin-bottom: 12px;
+        margin-bottom: 17px;
 
         .footer-items {
           width: 374px;
-          margin-top: 10px;
+          margin-top: 9px;
 
           .item-title {
             @include mp-0;
             width: 374px;
             margin-bottom: 16px;
+          }
+
+          .footer-social {
+            @include flex-start-center;
+
           }
 
           .footer-list {
@@ -141,7 +145,7 @@
         }
 
         .footer-items:first-of-type {
-          margin-top: 0;
+          margin-top: 9px;
         }
 
         .footer-items:nth-child(3) {
