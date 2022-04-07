@@ -518,12 +518,12 @@ h3 {
   }
   .page-news .newses .news-item .first-wrapper,
 .page-news .newses .news-item .second-wrapper {
-    width: 100%;
+    width: 374px;
     margin-right: 0;
     margin-left: 0;
   }
   .page-news .newses .news-item:first-of-type {
-    margin-bottom: 73px;
+    margin-bottom: 65px;
   }
 }
 .page-app {
