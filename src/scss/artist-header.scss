@@ -30,19 +30,19 @@
 
         box-sizing: border-box;
         width: 200px;
-        padding-left: 30px;
+        padding: 20px 30px;
+
+        color: nth($main-colors, 9);
+        font-weight: normal;
+        font-size: nth($text-sizes, 10);
+        line-height: nth($text-line-heights, 9);
+
+        text-align: left;
+        text-transform: uppercase;
 
         .btn-text {
           @include mp-0;
           display: inline-block;
-
-          color: nth($main-colors, 9);
-          font-weight: normal;
-          font-size: nth($text-sizes, 10);
-          line-height: nth($text-line-heights, 9);
-
-          text-align: left;
-          text-transform: uppercase;
         }
       }
 
@@ -52,8 +52,9 @@
         background-color: nth($main-colors, 7);
 
         .btn-text {
-          margin-top: -2px;
-          margin-left: -12px;
+          margin-top: -15px;
+          margin-left: 42px;
+       
         }
       }
 
@@ -61,8 +62,8 @@
         background-color: nth($main-colors, 8);
 
         .btn-text {
-          margin-top: -6px;
-          margin-left: 22px;
+          margin-top: -15px;
+          margin-left: 35px;
         }
       }
 
