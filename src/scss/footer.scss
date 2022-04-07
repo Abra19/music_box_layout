@@ -115,7 +115,7 @@
     .footer-lists {
       .footer-wrapper {
         @include flex-column-start;
-        margin-bottom: 17px;
+        margin-bottom: 14px;
 
         .footer-items {
           width: 374px;
@@ -152,7 +152,7 @@
           .footer-list {
             .footer-mail {
               width: 122px;
-              margin-bottom: 1px
+              margin-bottom: 2px;
             }
 
             .footer-phone {

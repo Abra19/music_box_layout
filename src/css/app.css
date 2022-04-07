@@ -693,7 +693,7 @@ h3 {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    margin-bottom: 17px;
+    margin-bottom: 14px;
   }
   .page-footer .footer-lists .footer-wrapper .footer-items {
     width: 374px;
@@ -724,7 +724,7 @@ h3 {
   }
   .page-footer .footer-lists .footer-wrapper .footer-items:nth-child(3) .footer-list .footer-mail {
     width: 122px;
-    margin-bottom: 1px;
+    margin-bottom: 2px;
   }
   .page-footer .footer-lists .footer-wrapper .footer-items:nth-child(3) .footer-list .footer-phone {
     width: 130px;
