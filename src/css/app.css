@@ -852,10 +852,12 @@ h3 {
   }
 }
 .page-popular-track {
-  padding-top: 70px;
+  padding-top: 100px;
 }
 .page-popular-track .popular-title {
-  padding-bottom: 15px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
 }
 .page-popular-track .popular-wrapper {
   display: flex;
@@ -908,8 +910,6 @@ h3 {
     padding-top: 100px;
   }
   .page-popular-track .popular-title {
-    margin: 0;
-    padding: 0;
     margin-bottom: 47px;
   }
   .page-popular-track .popular-wrapper .popular-track {

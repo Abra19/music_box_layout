@@ -1,8 +1,10 @@
 .page-popular-track {
-  padding-top: 70px;
+  padding-top: 100px;
 
   .popular-title {
     @include mp-0;
+
+    margin-bottom: 15px;
   }
 
   .popular-wrapper {
