@@ -319,12 +319,12 @@ h3 {
 .page-pricing .catalog-wrapper .pricing-item .card-item {
   margin: 0;
   padding: 0;
-  margin-top: 25px;
+  margin-top: 23px;
   margin-bottom: 200px;
   text-align: center;
 }
 .page-pricing .catalog-wrapper .pricing-item .pricing-value {
-  margin-bottom: 40px;
+  margin-bottom: 38px;
   font-size: 32px;
   line-height: 48px;
   display: flex;
