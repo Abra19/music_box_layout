@@ -588,11 +588,13 @@ h3 {
     margin: 0 auto;
   }
 }
-.page-footer {
+.bg-gradient {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
+
 .page-footer .footer-lists {
-  box-sizing: border-box;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   border-bottom: 2px solid #cacaca;
 }
 .page-footer .footer-lists .footer-wrapper {
@@ -600,8 +602,6 @@ h3 {
   flex-wrap: wrap;
   align-items: flex-start;
   justify-content: flex-start;
-  padding-top: 36px;
-  padding-bottom: 75px;
 }
 .page-footer .footer-lists .footer-wrapper .footer-items .item-title {
   margin-bottom: 14px;
@@ -652,8 +652,7 @@ h3 {
   margin-right: 0;
 }
 .page-footer .footer-main {
-  padding-top: 40px;
-  padding-bottom: 49px;
+  padding: 2rem;
 }
 .page-footer .footer-main .footer-main-list {
   display: flex;

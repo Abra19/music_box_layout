@@ -1,15 +1,16 @@
-.page-footer {
-  background: linear-gradient(89.75deg, nth($main-colors, 7) 32.83%, nth($main-colors, 8) 81.56%);
+.bg-gradient {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
 
+.page-footer {
   .footer-lists {
-    box-sizing: border-box;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 
     border-bottom: 2px solid nth($main-colors, 2);
 
     .footer-wrapper {
       @include flex-start-start;
-      padding-top: 36px;
-      padding-bottom: 75px;
 
       .footer-items {
         .item-title {
@@ -71,8 +72,7 @@
   }
 
   .footer-main {
-    padding-top: 40px;
-    padding-bottom: 49px;
+    padding: 2rem;
 
     .footer-main-list {
       @include flex-start-start;
