@@ -16,6 +16,7 @@
         .item-title {
           @include mp-0;
           width: 270px;
+          margin-top: 7px;
           margin-bottom: 14px;
 
           color: nth($main-colors, 9);
@@ -31,6 +32,8 @@
 
         .footer-list {
           @include mp-0;
+          margin-bottom: 20px;
+
           font-weight: normal;
           font-size: nth($text-sizes, 8);
           line-height: nth($text-line-heights, 8);
@@ -79,6 +82,8 @@
     .footer-main-list {
       @include flex-start-start;
       @include mp-0;
+
+      margin-top: 4px;
       list-style: none;
 
       .footer-main-item {
