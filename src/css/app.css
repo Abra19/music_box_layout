@@ -837,12 +837,16 @@ h3 {
     margin-top: 18px;
   }
   .bg-header-artist .page-description .line-btns .btn-violet {
-    margin-bottom: 25px;
+    margin-bottom: 23px;
   }
   .bg-header-artist .page-description .line-btns .btn-violet .btn-text {
     margin-left: 35px;
   }
   .bg-header-artist .page-description .line-btns .btn-violet::before {
+    top: 20px;
+    left: 30px;
+  }
+  .bg-header-artist .page-description .line-btns .btn-orange::before {
     top: 20px;
     left: 30px;
   }

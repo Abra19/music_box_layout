@@ -54,7 +54,6 @@
         .btn-text {
           margin-top: -15px;
           margin-left: 42px;
-       
         }
       }
 
@@ -101,13 +100,19 @@
 
       .line-btns {
         .btn-violet {
-          margin-bottom: 25px;
+          margin-bottom: 23px;
+
           .btn-text {
             margin-left: 35px;
           }
         }
 
         .btn-violet::before {
+          top: 20px;
+          left: 30px;
+        }
+
+        .btn-orange::before {
           top: 20px;
           left: 30px;
         }
