@@ -137,17 +137,23 @@
                 width: 374px;
               }
             }
-            .footer-auto {
-              width: auto;
-              .footer-link {
-                width: auto;
-              }
-            }
           }
         }
 
         .footer-items:first-of-type {
           margin-top: 0;
+        }
+
+        .footer-items:nth-child(3) {
+          .footer-list {
+            .footer-mail {
+              width: 187px;
+            }
+
+            .footer-phone {
+              width: 195px;
+            }
+          }
         }
       }
     }

@@ -714,14 +714,14 @@ h3 {
   .page-footer .footer-lists .footer-wrapper .footer-items .footer-list .footer-item .footer-link {
     width: 374px;
   }
-  .page-footer .footer-lists .footer-wrapper .footer-items .footer-list .footer-auto {
-    width: auto;
-  }
-  .page-footer .footer-lists .footer-wrapper .footer-items .footer-list .footer-auto .footer-link {
-    width: auto;
-  }
   .page-footer .footer-lists .footer-wrapper .footer-items:first-of-type {
     margin-top: 0;
+  }
+  .page-footer .footer-lists .footer-wrapper .footer-items:nth-child(3) .footer-list .footer-mail {
+    width: 187px;
+  }
+  .page-footer .footer-lists .footer-wrapper .footer-items:nth-child(3) .footer-list .footer-phone {
+    width: 195px;
   }
   .page-footer .footer-main {
     padding-right: 20px;
