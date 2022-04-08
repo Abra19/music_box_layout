@@ -3,6 +3,7 @@
   padding-top: 100px;
 
   .similar-title {
+    @include mp-0;
     margin-bottom: 50px;
   }
 

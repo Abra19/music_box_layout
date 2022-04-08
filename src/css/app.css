@@ -982,6 +982,8 @@ h3 {
   padding-top: 100px;
 }
 .page-similar .similar-title {
+  margin: 0;
+  padding: 0;
   margin-bottom: 50px;
 }
 .page-similar .similar-wrapper {
